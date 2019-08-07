@@ -1,0 +1,33 @@
+{
+  "name": "@alobato/select",
+  "version": "1.0.0",
+  "description": "Select react component",
+  "main": "index.js",
+  "repository": "github:alobato/select",
+  "author": "alobato",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "select"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/alobato/select/issues"
+  },
+  "homepage": "https://github.com/alobato/select#readme"
+}
