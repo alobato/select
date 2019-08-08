@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 
-const SelectRaw = ({children, placeholder = null, withError, className, ...rest}) => {
+export const SelectRaw = ({children, placeholder = null, withError, className, ...rest}) => {
   return (
     <select className={className} {...rest}>
       {placeholder && <option value=''>{placeholder}</option>}
