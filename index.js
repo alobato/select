@@ -1,6 +1,5 @@
 import React from 'react'
-import styled from 'styled-components/macro'
-import { css } from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const SelectRaw = ({children, placeholder = null, withError, className, ...rest}) => (
   <select className={className} {...rest}>
