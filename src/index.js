@@ -1,14 +1,16 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 
-export const SelectRaw = ({children, placeholder = null, withError, className, ...rest}) => (
-  <select className={className} {...rest}>
-    {placeholder && <option value=''>{placeholder}</option>}
-    {children}
-  </select>
-)
+const SelectRaw = ({children, placeholder = null, withError, className, ...rest}) => {
+  return (
+    <select className={className} {...rest}>
+      {placeholder && <option value=''>{placeholder}</option>}
+      {children}
+    </select>
+  )
+}
 
-export default styled(Select)`
+export default styled(SelectRaw)`
   border: 1px solid ${props => props.theme.colors.grey300};
   background-color: ${props => props.theme.colors.white};
   
