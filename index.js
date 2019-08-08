@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+exports["default"] = exports.SelectRaw = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -65,6 +65,8 @@ var SelectRaw = function SelectRaw(_ref) {
     value: ""
   }, placeholder), children);
 };
+
+exports.SelectRaw = SelectRaw;
 
 var _default = (0, _styledComponents["default"])(SelectRaw)(_templateObject(), function (props) {
   return props.theme.colors.grey300;
