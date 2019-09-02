@@ -69,29 +69,29 @@ var SelectRaw = function SelectRaw(_ref) {
 exports.SelectRaw = SelectRaw;
 
 var _default = (0, _styledComponents["default"])(SelectRaw)(_templateObject(), function (props) {
-  return props.theme && props.theme.color && props.theme.colors.grey300 ? props.theme.colors.grey300 : 'hsla(203, 20%, 76%, 1)';
+  return props.theme && props.theme.colors && props.theme.colors.grey300 ? props.theme.colors.grey300 : 'hsla(203, 20%, 76%, 1)';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.white ? props.theme.colors.white : 'white';
+  return props.theme && props.theme.colors && props.theme.colors.white ? props.theme.colors.white : 'white';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.white ? props.theme.colors.white : 'white';
+  return props.theme && props.theme.colors && props.theme.colors.white ? props.theme.colors.white : 'white';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.white ? props.theme.colors.white : 'white';
+  return props.theme && props.theme.colors && props.theme.colors.white ? props.theme.colors.white : 'white';
 }, function (props) {
   return props.width && (0, _styledComponents.css)(_templateObject2(), props.width);
 }, function (props) {
   return props.withError && (0, _styledComponents.css)(_templateObject3(), props.theme && props.theme.colors && props.theme.colors.error ? props.theme.colors.error : 'hsla(6, 66%, 47%, 1)');
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.grey200 ? props.theme.colors.grey200 : 'hsla(202, 20%, 86%, 1)';
+  return props.theme && props.theme.colors && props.theme.colors.grey200 ? props.theme.colors.grey200 : 'hsla(202, 20%, 86%, 1)';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.grey400 ? props.theme.colors.grey400 : 'hsla(205, 20%, 66%, 1)';
+  return props.theme && props.theme.colors && props.theme.colors.grey400 ? props.theme.colors.grey400 : 'hsla(205, 20%, 66%, 1)';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.grey100 ? props.theme.colors.grey100 : 'hsla(201, 20%, 96%, 1)';
+  return props.theme && props.theme.colors && props.theme.colors.grey100 ? props.theme.colors.grey100 : 'hsla(201, 20%, 96%, 1)';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.grey100 ? props.theme.colors.grey100 : 'hsla(201, 20%, 96%, 1)';
+  return props.theme && props.theme.colors && props.theme.colors.grey100 ? props.theme.colors.grey100 : 'hsla(201, 20%, 96%, 1)';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.grey100 ? props.theme.colors.grey100 : 'hsla(201, 20%, 96%, 1)';
+  return props.theme && props.theme.colors && props.theme.colors.grey100 ? props.theme.colors.grey100 : 'hsla(201, 20%, 96%, 1)';
 }, function (props) {
-  return props.theme && props.theme.color && props.theme.colors.grey200 ? props.theme.colors.grey200 : 'hsla(202, 20%, 86%, 1)';
+  return props.theme && props.theme.colors && props.theme.colors.grey200 ? props.theme.colors.grey200 : 'hsla(202, 20%, 86%, 1)';
 });
 
 exports["default"] = _default;
