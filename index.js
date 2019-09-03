@@ -13,16 +13,6 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _templateObject5() {
-  var data = _taggedTemplateLiteral(["border-radius: ", "px;"]);
-
-  _templateObject5 = function _templateObject5() {
-    return data;
-  };
-
-  return data;
-}
-
 function _templateObject4() {
   var data = _taggedTemplateLiteral(["border-color: ", ";"]);
 
@@ -54,7 +44,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\t-moz-appearance: none;\n\t-webkit-appearance: none;\n  appearance: none;\n\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n  color: inherit;\n  outline: 0;\n  cursor: pointer;\n  transition: all 0.3s;\n\n  padding: 0px 30px 0px 10px;\n  \n  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2232%22%20height%3D%2232%22%3E%3Cpath%20fill%3D%22grey%22%20d%3D%22M16.59%208.59L12%2013.17%207.41%208.59%206%2010l6%206%206-6z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, ", " 0%,", " 100%);\n\tbackground-repeat: no-repeat, repeat;\n\tbackground-position: right .3em top 50%, 0 0;\n  background-size: 1.25em auto, 100%;\n\n  height: ", ";\n  ", "\n  ", "\n  ", "\n\n  ", "\n  border: 1px solid ", ";\n  background-color: ", ";\n\n  &:focus {\n    box-shadow: 0 0 0 3px ", ";\n    border: 1px solid ", ";\n  }\n\n\t&:disabled {\n\t\tbackground-color: ", ";\n    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2232%22%20height%3D%2232%22%3E%3Cpath%20fill%3D%22grey%22%20d%3D%22M16.59%208.59L12%2013.17%207.41%208.59%206%2010l6%206%206-6z%22%2F%3E%3C%2Fsvg%3E'),linear-gradient(to bottom,", " 0%,", " 100%);\n\t\tborder: 1px solid ", ";\n\t\tcursor: not-allowed;\n\t}\n"]);
+  var data = _taggedTemplateLiteral(["\n\t-moz-appearance: none;\n\t-webkit-appearance: none;\n  appearance: none;\n\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n  color: inherit;\n  outline: 0;\n  cursor: pointer;\n  transition: all 0.3s;\n\n  padding: 0px 30px 0px 10px;\n  \n  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2232%22%20height%3D%2232%22%3E%3Cpath%20fill%3D%22grey%22%20d%3D%22M16.59%208.59L12%2013.17%207.41%208.59%206%2010l6%206%206-6z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, ", " 0%,", " 100%);\n\tbackground-repeat: no-repeat, repeat;\n\tbackground-position: right .3em top 50%, 0 0;\n  background-size: 1.25em auto, 100%;\n\n  height: ", ";\n  ", "\n  ", "\n  ", "\n\n  border-radius: ", ";\n  border: 1px solid ", ";\n  background-color: ", ";\n\n  &:focus {\n    box-shadow: 0 0 0 3px ", ";\n    border: 1px solid ", ";\n  }\n\n\t&:disabled {\n\t\tbackground-color: ", ";\n    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2232%22%20height%3D%2232%22%3E%3Cpath%20fill%3D%22grey%22%20d%3D%22M16.59%208.59L12%2013.17%207.41%208.59%206%2010l6%206%206-6z%22%2F%3E%3C%2Fsvg%3E'),linear-gradient(to bottom,", " 0%,", " 100%);\n\t\tborder: 1px solid ", ";\n\t\tcursor: not-allowed;\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -101,7 +91,7 @@ var _default = (0, _styledComponents["default"])(SelectRaw)(_templateObject(), f
 }, function (props) {
   return props.withError && (0, _styledComponents.css)(_templateObject4(), props.theme && props.theme.colors && props.theme.colors.error ? props.theme.colors.error : 'hsla(6, 66%, 47%, 1)');
 }, function (props) {
-  return props.theme && props.theme.borderRadius && (0, _styledComponents.css)(_templateObject5(), props.theme.borderRadius);
+  return props.theme && props.theme.borderRadius ? props.theme.borderRadius : '0';
 }, function (props) {
   return props.theme && props.theme.colors && props.theme.colors.grey300 ? props.theme.colors.grey300 : 'hsla(203, 20%, 76%, 1)';
 }, function (props) {

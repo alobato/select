@@ -1,6 +1,6 @@
 {
   "name": "@alobato/select",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Select react component",
   "main": "index.js",
   "scripts": {
