@@ -35,7 +35,7 @@ export default styled(SelectRaw)`
   ${props => props.width && css`width: ${props.width};`}
   ${props => props.withError && css`border-color: ${props.theme && props.theme.colors && props.theme.colors.error ? props.theme.colors.error : 'hsla(6, 66%, 47%, 1)'};`}
 
-  ${props => props.theme && props.theme.borderRadius && css`border-radius: ${props.theme.borderRadius}px;`}
+  border-radius: ${props => props.theme && props.theme.borderRadius ? props.theme.borderRadius : '0'};
   border: 1px solid ${props => (props.theme && props.theme.colors && props.theme.colors.grey300) ? props.theme.colors.grey300 : 'hsla(203, 20%, 76%, 1)'};
   background-color: ${props => (props.theme && props.theme.colors && props.theme.colors.white) ? props.theme.colors.white : 'white'};
 
