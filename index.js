@@ -14,7 +14,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["border-color: ", ";"]);
+  var data = _taggedTemplateLiteral(["border-color: ", " !important;"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
